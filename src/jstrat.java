@@ -22,7 +22,8 @@ public class jstrat {
 		System.out.println(motherboard.get_genstyle());
 		
 		/*
-		 * Steam and Wind to follow.
+		 * Steam and Wind to follow. Notice how that, given the interfaces
+		 * we can write against another API? This is design by contract.
 		 * 
 		 * motherboard.set_gen_style_strategy(GenStyle.STEAM);
 		 * motherboard.set_gen_style_strategy(GenStyle.WIND);
